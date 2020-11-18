@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV SUPREME</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS RESET  */
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: white;
+        background-size: cover;
+        background-attachment:fixed;
+        color: black;
+        font-family: 'Righteous', cursive;
+        height: 1100px;
+        overflow: scroll;
+    }
+    .left{
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left:34px;
+        top: 20px;
+    }
+    .left img{
+        width:215px;
+        /* filter: invert(0); */
+        padding: 0px 20px;
+    }
+    .left div{
+        text-align:center;
+    }
+    .mid{
+        display: block;
+        width: 37%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+        /* top: 20px; */
+    }
+    .right{
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        right: 43px;
+        top: 20px;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 16px;
+    }
+    .navbar li a{
+        color: black;
+        text-decoration: none;
+        padding: 14px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        color: #fd068a;
+    }
+    .btn{
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 31px;
+        border: 2px solid #fd068a;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Righteous', cursive;
+    }
+    .btn:hover{
+        background-color: #d08494;
+    }
+    .container{
+        border: 2px solid white;
+        margin: 67px 56px;
+        padding: 21px 64px;
+        width: 30%;
+        border-radius: 10px;
+    }
+    .container input {
+        text-align: center;
+        display: block;
+        font-size: 15px;
+        width: 325px;
+        padding: 4px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-family: 'Righteous', cursive;
+        border-radius: 10px
+    }
+    .form-group h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 338px;
+        margin: auto;
+    }
+    .videos{
+        margin: 30px  20px;
+    }
+    .container{
+    margin: 0px auto;
+    }
+    .container h1{
+        color: #d08498;
+        width:408px;
+    }
+    .aboutus{
+        width: 906px;
+        display: block;
+        margin: auto;
+    }
+    .aboutus div{
+        display: inline;
+        padding: 0 90px;
+    }
+    .aboutus img{
+        width: 34px;
+    }
+    .aboutus div a{
+        color: black ;
+        text-decoration: none;
+    }
+    .aboutus div a:hover{
+        color: #fd068a ;
+    }
+
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="image/ds.jpg" alt="">
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="mid">
+    <ul class="navbar">
+        <li><a href="#" >Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#"class="active">Site under maintainance!</a></li>
+    </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    
+
+    <!---VIDEO GOES HERE--->
+    <div class="videos">
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/76Tkjcj3ckw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/4j3d5BcaCdU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/WGHMusrSjyE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/5njs6lxoqwE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <!---FORM--->
+    <div class="container">
+        <h1>Join the Coding Community!</h1>
+        <form action="noaction.php"><!--no for now-->
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Github name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Linked Profile">
+            </div>
+            <button class="btn">Join</button>
+        </form>
+    </div>
+
+    <!------>
+<br>
+<br>
+<br>
+<br>
+    <!---PROFILE GOES HERE--->
+    <div class="aboutus">
+        <div class="insta">
+            <img src="image/insta.jpg" alt="insta logo">
+            <a href="https://www.instagram.com/supreeth_nayak/" target="_blank">Instagram</a>
+        </div>
+        <div>
+            <img src="image/twitter.png" alt="twitter logo">
+            <a href="https://twitter.com/supreethnayak_" target="_blank">Twitter</a>
+        </div>
+        <div>
+            <img src="image/github.jpg" alt="twitter logo">
+            <a href="https://github.com/Supreethnayak" target="_blank">Github</a>
+        </div>
+    </div>
+</body>
+</html>
